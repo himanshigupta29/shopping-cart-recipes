@@ -1,0 +1,32 @@
+.page-not-found-container {
+  background-color: #151203;
+}
+
+.pnf-container {
+  min-height: 550px;
+  background-image: url('../../assets/images/plates.jpg');
+  background-size: cover;
+  background-position: center bottom;;
+  position: relative;
+  /*transform: rotate(30deg);*/
+}
+
+.pgf-test-container {
+  position: absolute;
+  color: #fff;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.robot-container{
+  position: absolute;
+  left: 15%;
+  min-height: 150px;
+  top: 10%;
+  background-image: url('../../assets/images/small-robot.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 200px;
+}
